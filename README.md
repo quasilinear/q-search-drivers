@@ -1,9 +1,9 @@
-## q-search-drivers
+# q-search-drivers
 
 Some programs that implement the probabilistic semantics of the Q instruction
 set extension, sorta.
 
-# Usage
+## Usage
 
     cd example
     make example.so
