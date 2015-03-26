@@ -13,7 +13,7 @@ and loaded by `spike`.
 
     cd example
     make
-    Q_DRIVER=example.so spike --extlib=/path/to/libq_ext.so --extension=q_rocc pk some.rv
+    Q_DRIVER=example.so spike --extlib=/path/to/libq_ext.so --extension=q_ext pk some.rv
 
 If `some.rv` is a RISC-V binary making some use of Q instructions, this will
 execute that program with the policy of returning 42 in response to every Q
